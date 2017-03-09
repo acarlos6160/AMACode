@@ -1,60 +1,38 @@
+#include "stdafx.h"
 #include <iostream>
+
 using namespace std;
 
 int unsigned main() {
-int Defense;
-int Regular;
-int Honor;
-int Acceptance;
-int unsigned Pride;
-int Ehonor;
-int Eregular;
-int Success;
-int Tragedy;
-int FundtMult;
-int Fund;
-int unsigned Level;
 
-int Sports = 1;
-int Math = 1;
-int Science = 1;
-int Literature = 1;
-int Humanities = 1;
+	int Ehonor = 10;
+	int Acceptance = 50;
+	int unsigned Pride = 50;
+	int Honor = 100;
+	int Eregular = 100;
+	int Regular = 1000;
 
+	int Defense;
+	int Success;
+	int Tragedy;
+	int FundtMult;
+	int Fund;
+	int unsigned Level;
 
-Acceptance = 50;
+	int Sports, Math, Science, Literature, Humanities = 1;
 
-Honor = 100;
-
-Regular = 1000;
-
-Pride = 50;
-
-Ehonor 10;
-
-Eregular = 100;
+	while loop {
+		Defense = Honor + Regular;
+		Ehonor = 100 - (A)*(Pride / 100)*(10);
+		Eregular = 100 - (A)*(Pride / 100)*(10);
+		FundtMult = 2 + Success + 10(Honor / Regular);
 
 
-while loop {
-
- Deffence = Honor + Regular;
- 
- Ehonor = 100 - (A)*(Pride/100)*(10);
- 
- Eregular = 100 - (A)*(Pride/100)*(10);
- 
- FundtMult = 2 + Success + 10(Honor/Regular);
- 
- if (Pride <= 0)
- 
-    Tragedy = 10 + (Pride/100) + 50;
- else
-    Tragedy = 10 + (Pride/100);
- 
+		if (Pride <= 0) {
+			Tragedy = 10 + (Pride / 100) + 50;
+		}
+		else
+			Tragedy = 10 + (Pride / 100);
+		}
+		return 0;
 }
- 
-
-	return 0;
-}
-
-
