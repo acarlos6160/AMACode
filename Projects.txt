@@ -1,0 +1,4 @@
+Name1 Humanities 25
+Name2 Literature 50
+Name3 Math 75
+Name4 Science 50

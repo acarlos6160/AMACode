@@ -1,0 +1,6 @@
+﻿  MyForm1.cpp
+c:\users\frpere\documents\visual studio 2017\projects\amacode\amacode\MyForm1.h(1073): warning C4018: '<': signed/unsigned mismatch
+c:\users\frpere\documents\visual studio 2017\projects\amacode\amacode\MyForm1.h(1097): warning C4018: '<': signed/unsigned mismatch
+c:\users\frpere\documents\visual studio 2017\projects\amacode\amacode\MyForm1.h(1418): warning C4018: '<': signed/unsigned mismatch
+MyForm1.cpp(5): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  AMACode.vcxproj -> C:\Users\frpere\documents\visual studio 2017\Projects\AMACode\Debug\AMACode.exe

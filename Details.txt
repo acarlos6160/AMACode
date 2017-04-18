@@ -1,0 +1,92 @@
+To Do:
+1. Fix project text file reading (4 columns - name + prompt)
+2. Show pop-up when player cannot expand department
+3. Fix deletion of completed/failed projects on the GUI; code will not work for some reason.
+
+Max Professors = 2(department lvl)
+Max Postdocs = 4(department lvl)
+Max Grad = 12(department lvl)
+
+Professor ER = 10% - Grad ER/10 + Pride/5
+Post doc ER = 20% + Pride/3
+Grad ER = User-inputted
+
+Postdoct number = (Post ER/43)*3
+and Grad number = Grad ER(12)
+
+For professor it's a base 10% chance to get one
+and at pride 100 its 100/5 = 20
+so the max chance to get a professor is 30%
+
+tragedy occurs = 100K loss
+
+$25,000, $50,000, $100,000 = easy, medium, hard
+10, 20, 30 pride reward
+2, 4, 8 pride loss
+
+Easy Projects: $25K to start
+Medium Projects: $50K to start
+Hard Projects: $100K to start
+
+Reward = Cost * 4
+Penalty = Nothing
+
+*** = Code with NUMBERS that you can alter to mess with the 'balance' of the game
+### = Code I (we) have written; not the code that the machine generates for the GUI
+
+PROJECT FORMAT
+name category difficulty
+
+2 professors per department
+Each upgrade = +2 professors
+Each upgrade costs double the previous
+
+Projects
+	1. Science
+	2. Math
+	3. Literature
+	4. Humanities
+
+Project Difficulty - Defense Rating (Probability to Succeed) 	*CAP AT 95%*
+	1. Easy - 75%	Reward: School pride by +10%
+	2. Medium - 50% Reward: School pride by +20%
+	3. Hard - 25%	Reward: School pride by +30%
+
+Faculty Members
+	- "Spend" them to increase probability of success
+		1. Professors add 100% to base success rate
+		2. Post Doctorates add 50%
+		3. Graduate Students add 25%
+
+	- Professor can hold 2 post doctorates and 10 graduate students
+
+Faculty Lifecycle
+	1. Professors: Indefinity
+	2. Post Doctorates: 4 turns
+	3. Graduate Students: 8 turns
+
+Objective
+	1. Complete tasks
+
+Reward
+	1. Money - Spent to upgrade the department (More faculty)
+	2. School Pride - Spent to increase chance of success per project, capped at 100
+
+Mechanic
+	1. Higher school pride, lower acceptance rate = Higher ranked faculty (more professors, less graduate students)
+	2. Tragedy: Percentage for user to lose money or professors
+		- School pride = 0, increase Tragedy by +50%
+	3. More professors = higher chance project will succeed
+
+TURN-BASED: 1 turn = 1 semester
+
+GUI
+	View and Adjust
+		1. Department Levels
+		2. Number of Staff
+		3. Money
+		4. School Pride
+		5. Acceptance Rate
+
+
+And the ability for the player to adjust the acceptance rate, select projects, assign faculty to them and spend school pride, and lastly spend money to upgrade the departments.
